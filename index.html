@@ -4,11 +4,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saurabh Bisht</title>
+    <title>Saurabh</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header h2 {
+            font-size: 1.5rem;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .experience,
+        .contact {
+            margin-top: 40px;
+        }
+
+        .job {
+            margin-bottom: 20px;
+        }
+
+        .job h4 {
+            margin-bottom: 5px;
+        }
+
+        .role {
+            color: #888;
+        }
+
+        .contact a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 
 <body>
+    <div class="container">
+        <header>
+            <h1>Saurabh Bisht</h1>
+            <h2>UI/UX Designer & Developer</h2>
+        </header>
 
+        <section class="experience">
+            <h3>Experience</h3>
+            <div class="job">
+                <h4>Dimension Groups</h4>
+                <p>March 2024 - Present</p>
+                <p class="role">UI/UX Designer & Developer</p>
+            </div>
+            <div class="job">
+                <h4>Coder Oxygen</h4>
+                <p>November 2022 - March 2024</p>
+                <p class="role">UI/UX Designer</p>
+            </div>
+            <p>Total Experience: <span id="experience-counter"></span></p>
+        </section>
+
+        <section class="contact">
+            <h3>Contact</h3>
+            <p>Email: <a href="mailto:saurabhb7678@gmail.com">saurabhb7678@gmail.com</a></p>
+        </section>
+    </div>
+
+    <script src="scripts/scrpt.js""></script>
 </body>
 
 </html>
